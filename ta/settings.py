@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'user',
     'post',
+    'product',
 ]
 
 MIDDLEWARE = [
@@ -146,6 +147,3 @@ SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=50),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
 }
-
-
-
